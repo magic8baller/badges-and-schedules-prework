@@ -7,7 +7,6 @@ end
 def batch_badge_creator(attendees)
   messages = []
   attendees.each { |person| messages << badge_maker(person) }
-  messages
 end
 
 
